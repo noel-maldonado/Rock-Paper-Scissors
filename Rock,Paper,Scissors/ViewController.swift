@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
     }
     
-    
+    //Preseent ResultsViewController through code only
     @IBAction func rockPicker(_ sender: Any) {
         let controller: ResultsViewController
         controller = storyboard?.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         present(controller, animated: true, completion: nil)
     }
     
+    //Preseent ResultsViewController through code and segue only
     @IBAction func paperPick(_ sender: Any) {
         performSegue(withIdentifier: "paperPick", sender: self)
         
@@ -54,61 +55,3 @@ class ViewController: UIViewController {
     }
 }
 // Rock - Code        Paper - Code & Segue          scissors - Segue
-/*
- 
- Code Only Example
- 
- @IBAction func rollTheDice() {
-
-     let controller: DiceViewController
-     controller = storyboard?.instantiateViewController(withIdentifier: "DiceViewController") as! DiceViewController
-
-     controller.firstValue = randomDiceValue()
-     controller.secondValue = randomDiceValue()
-
-     present(controller, animated: true, completion: nil)
- }
- 
- 
- Code and Segue
- 
- class RollViewController: UIViewController {
-
-     /**
-     * Randomly generates a Int from 1 to 6
-     */
-     func randomDiceValue() -> Int {
-         // Generate a random Int32 using arc4Random
-         let randomValue = 1 + arc4random() % 6
-
-         // Return a more convenient Int, initialized with the random value
-         return Int(randomValue)
-     }
-
-     @IBAction func rollTheDice() {
-         performSegue(withIdentifier: "rollDice", sender: self)
-     }
- }
- 
- 
- Segue only
- 
- 
- 
- 
- 
- Passing Values
- 
- override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
-     if segue.identifier == "rollDice" {
-         let controller = segue.destination as! DiceViewController
-
-         controller.firstValue = randomDiceValue()
-         controller.secondValue = randomDiceValue()
-     }
- }
- 
- 
- 
- */
