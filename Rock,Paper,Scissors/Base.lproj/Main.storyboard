@@ -96,8 +96,8 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="n4d-ne-cOd" firstAttribute="leading" secondItem="nPC-4k-08h" secondAttribute="leading" constant="87" id="1a8-lz-SAH"/>
                             <constraint firstItem="DCw-Ui-oUT" firstAttribute="centerX" secondItem="ZJq-zE-ALc" secondAttribute="centerX" id="JzA-GC-XDh"/>
+                            <constraint firstItem="n4d-ne-cOd" firstAttribute="centerX" secondItem="ZJq-zE-ALc" secondAttribute="centerX" id="Stu-Ay-MHu"/>
                             <constraint firstItem="ibg-0x-7KP" firstAttribute="centerX" secondItem="ZJq-zE-ALc" secondAttribute="centerX" id="ZCz-Yp-Yl6"/>
                             <constraint firstItem="DCw-Ui-oUT" firstAttribute="top" secondItem="n4d-ne-cOd" secondAttribute="bottom" constant="60" id="oUB-g0-1pA"/>
                             <constraint firstItem="n4d-ne-cOd" firstAttribute="top" secondItem="nPC-4k-08h" secondAttribute="top" constant="70" id="qhS-N4-OHR"/>
