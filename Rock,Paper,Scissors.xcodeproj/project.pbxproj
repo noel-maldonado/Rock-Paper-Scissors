@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3292CBEE2456855800F551B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292CBED2456855800F551B6 /* AppDelegate.swift */; };
 		3292CBF02456855800F551B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292CBEF2456855800F551B6 /* SceneDelegate.swift */; };
-		3292CBF22456855800F551B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292CBF12456855800F551B6 /* ViewController.swift */; };
+		3292CBF22456855800F551B6 /* RockPaperScissorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292CBF12456855800F551B6 /* RockPaperScissorsViewController.swift */; };
 		3292CBF52456855800F551B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3292CBF32456855800F551B6 /* Main.storyboard */; };
 		3292CBF72456855B00F551B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3292CBF62456855B00F551B6 /* Assets.xcassets */; };
 		3292CBFA2456855B00F551B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3292CBF82456855B00F551B6 /* LaunchScreen.storyboard */; };
@@ -39,7 +39,7 @@
 		3292CBEA2456855800F551B6 /* Rock,Paper,Scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock,Paper,Scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3292CBED2456855800F551B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3292CBEF2456855800F551B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3292CBF12456855800F551B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3292CBF12456855800F551B6 /* RockPaperScissorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsViewController.swift; sourceTree = "<group>"; };
 		3292CBF42456855800F551B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3292CBF62456855B00F551B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3292CBF92456855B00F551B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				3292CBED2456855800F551B6 /* AppDelegate.swift */,
 				3292CBEF2456855800F551B6 /* SceneDelegate.swift */,
-				3292CBF12456855800F551B6 /* ViewController.swift */,
+				3292CBF12456855800F551B6 /* RockPaperScissorsViewController.swift */,
 				3292CC1D2456885C00F551B6 /* ResultsViewController.swift */,
 				3292CBF32456855800F551B6 /* Main.storyboard */,
 				3292CBF62456855B00F551B6 /* Assets.xcassets */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3292CBF22456855800F551B6 /* ViewController.swift in Sources */,
+				3292CBF22456855800F551B6 /* RockPaperScissorsViewController.swift in Sources */,
 				3292CBEE2456855800F551B6 /* AppDelegate.swift in Sources */,
 				3292CBF02456855800F551B6 /* SceneDelegate.swift in Sources */,
 				3292CC1E2456885C00F551B6 /* ResultsViewController.swift in Sources */,

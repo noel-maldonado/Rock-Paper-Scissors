@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RockPaperScissorsViewController: UIViewController {
 
     var userPickOption: Int?
     
@@ -27,11 +27,11 @@ class ViewController: UIViewController {
     
     //Preseent ResultsViewController through code only
     @IBAction func rockPicker(_ sender: Any) {
-        let controller: ResultsViewController
-        controller = storyboard?.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+         let controller = storyBoard.instantiateViewController(withIdentifier: "ResultsViewController") as! ResultsViewController
         controller.randomValue = randomResult()
         controller.userValue = 1
-        present(controller, animated: true, completion: nil)
+        self.navigationController?.pushViewController(controller, animated: true)
     }
     
     //Preseent ResultsViewController through code and segue only
